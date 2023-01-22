@@ -90,6 +90,15 @@ nav .fa{
     display: none;
 }
 
+#preloader{
+    background: #ffeefb url(CalKhal/kuromilo.gif) no-repeat center center; 
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 @media(max-width: 700px){
     .text-box h1{
         font-size: 40px;}
@@ -122,6 +131,15 @@ nav .fa{
     
     .nav-links ul{
         padding: 30px;
+    }
+
+    #preloader{
+        background: #ffeefb url(CalKhal/kuromilo.gif) no-repeat center center; 
+        background-size: 30%;
+        height: 100vh;
+        width: 59%;
+        position: center;
+        z-index: 100;
     }
 }
 

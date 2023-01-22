@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/949cc11e59.js" crossorigin="anonymous"></script>
 </head>
+<div id="preloader"></div>
 <body>
     <section class="header">
         <nav>
@@ -150,6 +151,14 @@
     <p>Made by <i class="fa fa-heart-o"></i> Calvin Danylo Adler-Estevan</p>
 </section>
 
+<!------ Java Script for preloader ------>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        loader.style.display="none";
+    })
+
+</script>
 
 <!------ Java Script for toggle menu ------>
 <script>
