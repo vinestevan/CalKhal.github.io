@@ -72,9 +72,10 @@ nav img {
 .hero-btn{
     display: inline-block;
     text-decoration: none;
+    border-radius: 20px;
     color: rgba(255, 255, 255, 0.767);
     border: 1px solid #fff;
-    padding: 12px 34px;
+    padding: 13px 38px;
     font-size: 13px;
     background: transparent;
     position: relative;
@@ -123,7 +124,7 @@ nav .fa{
 
     nav .fa{
         display: block;
-        color: white;
+        color: rgb(255, 251, 251);
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -179,6 +180,7 @@ nav .fa{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    border-radius: 20px;
 }
 
 .mssg h1{
@@ -221,7 +223,7 @@ h3{
 
 .edits{
     flex-basis: 32%;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
@@ -250,6 +252,7 @@ h3{
     color: rgba(255, 0, 179, 0.479);
     font-size: 26px;
     bottom: 0;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -435,6 +438,7 @@ h3{
 
 .pink-btn{
     display: inline-block;
+    border-radius: 20px;
     text-decoration: none;
     color: #df32b9;
     border: 1px solid #df32b9;
